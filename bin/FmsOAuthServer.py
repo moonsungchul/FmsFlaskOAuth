@@ -12,9 +12,6 @@ app.debug = True
 
 app.config['SECRET_KEY'] = 'mmm'
 app.config['GOOGLE_OAUTH2_CLIENT_SECRETS_FILE'] = 'client_secrets.json'
-#app.config['GOOGLE_OAUTH2_CLIENT_ID'] = '254341667501-m9ne18qg50pbcn5ub2aevuigi4n7ro33.apps.googleusercontent.com'
-#app.config['GOOGLE_OAUTH2_CLIENT_SECRET'] = 'WuD9xASm5N3CihErkf40Rxvl'
-
 
 @app.route('/version')
 def version():
